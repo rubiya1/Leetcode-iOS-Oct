@@ -14,27 +14,15 @@ func findInMountainArray(_ target: Int, _ mountainArr: [Int]) -> Int {
     
     // find the peak
     while  l <= r {
-        //print("l is \(l)")
-        //print("r is \(r)")
         let m = (l + r ) / 2
-        //print("m is \(m) array of m is\(mountainArr[m])")
         let (left,mid,right) = (mountainArr[m-1], mountainArr[m],mountainArr[m+1])
-        //print("left is \(left), mid is \(mid), right is \(right)")
         if left < mid && mid < right { l = m + 1 }
         else if left > mid  && mid > right { r = m - 1 }
-
-        else {
-            print("executing else condition")
-            peak = m
-            
-            break
-        }
+        else { peak = m; break }
     }
-    print("First peak is \(peak)")
-    // Search left portion
-    l = 0
-    r = peak
     
+    // Search Left portion
+    l = 0; r = peak
     while l <= r {
         let m = (l + r) / 2
         let val = mountainArr[m]
@@ -44,8 +32,7 @@ func findInMountainArray(_ target: Int, _ mountainArr: [Int]) -> Int {
     }
     
     // Search right portion
-    l = peak
-    r = mountainArr.count - 1
+    l = peak; r = mountainArr.count - 1
     print("peak is \(peak)")
     while l <= r {
         let m = (l + r) / 2
