@@ -9,5 +9,6 @@
         <page name='746. Min Cost Climbing Stairs '/>
         <page name='341. Flatten Nested List Iterator '/>
         <page name='844. Backspace String Compare '/>
+        <page name='1425. Constrained Subsequence Sum '/>
     </pages>
 </playground>
