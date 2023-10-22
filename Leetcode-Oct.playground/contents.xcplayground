@@ -10,5 +10,6 @@
         <page name='341. Flatten Nested List Iterator '/>
         <page name='844. Backspace String Compare '/>
         <page name='1425. Constrained Subsequence Sum '/>
+        <page name='1793. Maximum Score of a Good Subarray '/>
     </pages>
 </playground>
