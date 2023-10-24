@@ -12,5 +12,6 @@
         <page name='1425. Constrained Subsequence Sum '/>
         <page name='1793. Maximum Score of a Good Subarray '/>
         <page name='342. Power of Four '/>
+        <page name='515. Find Largest Value in Each Tree Row '/>
     </pages>
 </playground>
