@@ -15,5 +15,6 @@
         <page name='515. Find Largest Value in Each Tree Row '/>
         <page name='1356. Sort Integers by The Number of 1 Bits '/>
         <page name='5. Longest Palindromic Substring '/>
+        <page name='2433. Find The Original Array of Prefix Xor '/>
     </pages>
 </playground>
